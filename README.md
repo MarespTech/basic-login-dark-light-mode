@@ -1,2 +1,2 @@
-# basic-login-dark-light-mode
+# Minimalistic Login with dark/light mode
 Basic Login page trying to create it minimalistic and with dark/light mode using just html, css and javascript
