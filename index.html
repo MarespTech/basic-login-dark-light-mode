@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ef94dd43d5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Login Form</title>
+</head>
+<body class="bg-dark-gradient">
+    <div class="card" id="login">
+        <div class="img-container">
+            <img src="assets/img/undraw_welcome_3gvl.svg" alt="Login">
+        </div>
+        <div class="form-container">
+            <h2>Welcome</h2>
+            <form action="">
+                <div class="input-field">
+                    <input type="text" id="email" name="email" required>
+                    <label for="email">Email or Username</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" id="password" name="password" required>
+                    <label for="password">Password</label>
+                </div>
+                <div class="checkbox-field">
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-green login-btn"><b>Login</b></button>
+            </form>
+            <div class="connecting-with">
+                <span>Or connecting with</span>
+                <!-- <button class="btn btn-blue btn-mini">
+                    <i class="fab fa-facebook-f"></i> <b>Facebook</b>
+                </button>
+                <button class="btn btn-red btn-mini">
+                    <i class="fab fa-google"></i> <b>Gmail</b>
+                </button> -->
+                <button class="btn btn-blue btn-circle">
+                    <i class="fab fa-facebook-f"></i> <b>Facebook</b>
+                </button>
+                <button class="btn btn-red btn-circle">
+                    <i class="fab fa-google"></i> <b>Gmail</b>
+                </button>
+            </div>
+            <div class="more-options">
+                <p>Don't have an account? <a href="#!">Create account</a></p> 
+                <a href="#!">Forgot your password?</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="card" id="signup"></div>
+</body>
+</html>
