@@ -92,6 +92,14 @@ html, body {
     overflow: hidden;
 }
 
+#signup {
+    height: 550px;
+}
+
+#restore-password {
+    height: 350px;
+}
+
 @media screen and (max-width: 998px) {
     .card {
         width: 90%;
@@ -99,7 +107,7 @@ html, body {
 }
 
 .bg-dark-gradient .card {
-    background-color: #1d1f29;
+    background-color: #363842;
     box-shadow: none;
     color: rgb(201, 200, 200);
 }
@@ -146,7 +154,8 @@ html, body {
     margin: 25px auto;
 }
 
-.input-field {
+.input-field, 
+.input-date-field {
     position: relative;
     width: 90%;
     height: 44px;
@@ -165,7 +174,7 @@ html, body {
     cursor: text;
 }
 
-.input-field input {
+.input-field input{
     width: 90%;
     outline: 0;
     padding: 0.5rem;
@@ -176,9 +185,15 @@ html, body {
     transition: 0.25s;
 }
 
-.bg-dark-gradient .input-field input {
+.bg-dark-gradient .input-field input{
     background-color: #040816;
     color: rgb(201, 200, 200);
+}
+
+@media screen and (max-width: 998px) {
+    .input-field label {
+        left: 25px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -188,7 +203,7 @@ html, body {
     }
 
     .input-field label {
-        left: 8px;
+        left: 20px;
         width: 100%;
     }
 }
@@ -206,12 +221,20 @@ html, body {
 }
 
 .input-field input:focus~label,
-.input-field input:valid~label {
+.input-field input:valid~label
+ {
     font-size: 14px;
     top: -24px;
     /* left: 0; */
     color: #06D439;
     width: 100%;
+}
+
+input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
 }
 
 .checkbox-field {

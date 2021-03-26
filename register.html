@@ -12,25 +12,29 @@
     <title>Login Form</title>
 </head>
 <body class="bg-dark-gradient">
-    <div class="card" id="login">
-        <div class="img-container">
-            <!-- <img src="assets/img/undraw_welcome_3gvl.svg" alt="Login"> -->
-            <img src="assets/img/welcome.jpg" alt="Login">
-        </div>
+    <div class="card" id="signup">
         <div class="form-container">
-            <h2>Welcome</h2>
+            <h2>Sign Up</h2>
             <form action="">
                 <div class="input-field">
+                    <input type="text" id="username" name="username" required>
+                    <label for="username">Username</label>
+                </div>
+                <div class="input-field">
                     <input type="text" id="email" name="email" required>
-                    <label for="email">Email or Username</label>
+                    <label for="email">Email</label>
                 </div>
                 <div class="input-field">
                     <input type="password" id="password" name="password" required>
                     <label for="password">Password</label>
                 </div>
-                <div class="checkbox-field">
-                    <input type="checkbox" name="remember" id="remember">
-                    <label for="remember">Remember me</label>
+                <div class="input-field">
+                    <input type="passwordR" id="passwordR" name="passwordR" required>
+                    <label for="passwordR">Repeat password</label>
+                </div>
+                <div class="input-field">
+                    <input type="date" class="input-date" id="date" name="date" required>
+                    <label for="date">Born date</label>
                 </div>
                 <button type="submit" class="btn btn-green login-btn"><b>Login</b></button>
             </form>
@@ -44,9 +48,12 @@
                 </button>
             </div>
             <div class="more-options">
-                <p>Don't have an account? <a href="register.html">Create account</a></p> 
-                <a href="forgotPassword.html">Forgot your password?</a>
+                <p>Already have an account? <a href="index.html">Go to login</a></p> 
             </div>
+        </div>
+        <div class="img-container">
+            <!-- <img src="assets/img/undraw_welcome_3gvl.svg" alt="Login"> -->
+            <img src="assets/img/undraw_Login_re_4vu2.svg" alt="Signup">
         </div>
     </div>
 
