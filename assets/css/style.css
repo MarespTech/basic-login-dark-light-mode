@@ -100,7 +100,7 @@ html, body {
     height: 350px;
 }
 
-@media (max-width: 998px) {
+@media screen and (max-width: 998px) {
     .card {
         width: 90%;
     }
@@ -140,7 +140,7 @@ html, body {
     margin: 0;
 }
 
-@media (max-width: 998px) {
+@media screen and (max-width: 998px) {
     .img-container {
         display: none;
     }
@@ -198,13 +198,13 @@ html, body {
     color: rgb(201, 200, 200);
 }
 
-@media (max-width: 998px) {
+@media screen and (max-width: 998px) {
     .input-field label {
         left: 25px;
     }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .form-container form {
         width: 100%;
         margin: 0;
