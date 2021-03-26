@@ -104,6 +104,10 @@ html, body {
     .card {
         width: 90%;
     }
+
+    #restore-password {
+        height: 400px;
+    }
 }
 
 .bg-dark-gradient .card {
