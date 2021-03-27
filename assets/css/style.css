@@ -108,16 +108,12 @@ html, body {
 }
 
 #restore-password {
-    height: 350px;
+    height: 400px;
 }
 
 @media screen and (max-width: 998px) {
     .card {
         width: 90%;
-    }
-
-    #restore-password {
-        height: 400px;
     }
 }
 
